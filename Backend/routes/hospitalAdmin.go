@@ -3,8 +3,8 @@ package routes
 import (
 	"time"
 
-	"github.com/adityjoshi/Swaasthya/Backend/controllers"
-	"github.com/adityjoshi/Swaasthya/Backend/middleware"
+	"github.com/adityjoshi/avinya/Backend/controllers"
+	"github.com/adityjoshi/avinya/Backend/middleware"
 	"github.com/gin-gonic/gin"
 )
 

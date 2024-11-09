@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/adityjoshi/Swaasthya/Backend/database"
-	"github.com/adityjoshi/Swaasthya/Backend/utils"
+	"github.com/adityjoshi/avinya/Backend/database"
+	"github.com/adityjoshi/avinya/Backend/utils"
 	"github.com/gin-gonic/gin"
 )
 

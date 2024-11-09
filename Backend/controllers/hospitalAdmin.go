@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/adityjoshi/Swaasthya/Backend/database"
-	"github.com/adityjoshi/Swaasthya/Backend/utils"
+	"github.com/adityjoshi/avinya/Backend/database"
+	"github.com/adityjoshi/avinya/Backend/utils"
 	"github.com/gin-gonic/gin"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/adityjoshi/Swaasthya/Backend/database"
+	"github.com/adityjoshi/avinya/Backend/database"
 
 	"github.com/gin-gonic/gin"
 )

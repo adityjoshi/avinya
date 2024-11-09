@@ -3,7 +3,7 @@ package controllers
 import (
 	"log"
 
-	"github.com/adityjoshi/Swaasthya/Backend/utils"
+	"github.com/adityjoshi/avinya/Backend/utils"
 	"github.com/go-redis/redis/v8"
 )
 

@@ -4,10 +4,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/adityjoshi/Swaasthya/Backend/controllers"
-	"github.com/adityjoshi/Swaasthya/Backend/database"
-	"github.com/adityjoshi/Swaasthya/Backend/initiliazers"
-	"github.com/adityjoshi/Swaasthya/Backend/routes"
+	"github.com/adityjoshi/avinya/Backend/controllers"
+	"github.com/adityjoshi/avinya/Backend/database"
+	"github.com/adityjoshi/avinya/Backend/initiliazers"
+	"github.com/adityjoshi/avinya/Backend/routes"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
@@ -23,8 +23,8 @@ func main() {
 
 		log.Fatal("Error loading .env file")
 	}
-	region := "null"
-	database.InitDatabase(region)
+
+	database.InitDatabase()
 	defer database.CloseDatabase()
 	database.InitializeRedisClient()
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/adityjoshi/Swaasthya/Backend/database"
+	"github.com/adityjoshi/avinya/Backend/database"
 	"github.com/gin-gonic/gin"
 )
 
