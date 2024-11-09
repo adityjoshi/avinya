@@ -3,7 +3,7 @@ package kafka
 import (
 	"fmt"
 
-	"github.com/adityjoshi/manipal/backend/kafka"
+	"github.com/adityjoshi/avinya/Backend/kafka"
 )
 
 // KafkaManager is responsible for managing Kafka producers and sending messages to topics
